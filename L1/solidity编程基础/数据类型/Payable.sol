@@ -2,8 +2,6 @@
 pragma solidity ^0.8.24;
 contract Payable{
 mapping(address => bool) whitelist;
-
-
 function addWhitelist(address _address) public{
     whitelist[_address] = true;
 }
