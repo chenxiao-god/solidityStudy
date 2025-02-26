@@ -17,3 +17,4 @@ function pay(address _address) public payable{
     require(checkWhitelist(_address),"not in whitelist");
     payable(_address).transfer(msg.value);
 }
+}
