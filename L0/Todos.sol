@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.24;
 import "./Todo.sol";
 contract Todos {
-
     // 数组
     Todo[] public todos;
 
